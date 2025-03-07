@@ -138,4 +138,7 @@ def logout(request):
         message=request.session['username'] + ' 您已登出!'
         status=""
         del request.session['username']	#刪除Session	
-    return render(request, 'login.html',locals())        
+    return render(request, 'login.html',locals())    
+
+def bweb(request):
+    return HttpResponse('hello world by b同學')	

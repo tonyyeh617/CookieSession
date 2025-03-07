@@ -41,6 +41,8 @@ urlpatterns = [
 
     path('login/',views.login),
     path('logout/',views.logout),
+
+    path('bweb/',views.bweb),
     
 ]
 
