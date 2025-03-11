@@ -140,3 +140,5 @@ def logout(request):
         del request.session['username']	#刪除Session	
     return render(request, 'login.html',locals())        
 
+def aweb(request):
+    return HttpResponse("a同學開發")	
