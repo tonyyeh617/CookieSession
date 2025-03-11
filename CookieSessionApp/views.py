@@ -141,4 +141,4 @@ def logout(request):
     return render(request, 'login.html',locals())        
 
 def aweb(request):
-    return HttpResponse("a同學開發")	
+    return HttpResponse("a同學開發 開完成")	
