@@ -46,10 +46,9 @@ urlpatterns = [
 
     path('bweb/',views.bweb),
 
+    path('aweb2/',views.aweb2),
 
 
-    
-    
 ]
 
 

@@ -143,6 +143,8 @@ def logout(request):
 def aweb(request):
     return HttpResponse("a同學開發 開完成")
 	
+def aweb2(request):
+    return HttpResponse("<b>a同學再次開發</b>")
 
 def bweb(request):
     return HttpResponse("hello world by b同學 完成")
