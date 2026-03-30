@@ -44,10 +44,9 @@ urlpatterns = [
 
     path('aweb/',views.aweb),
 
+    path('aweb2/',views.aweb2),
 
 
-    
-    
 ]
 
 
