@@ -44,6 +44,8 @@ urlpatterns = [
 
     path('aweb/',views.aweb),
 
+    path('bweb/',views.bweb),
+
 
 
     
