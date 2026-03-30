@@ -143,3 +143,5 @@ def logout(request):
 def aweb(request):
     return HttpResponse("a同學開發 開完成")
 	
+def aweb2(request):
+    return HttpResponse("a同學再次開發")
