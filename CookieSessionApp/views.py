@@ -145,3 +145,6 @@ def aweb(request):
 	
 def aweb2(request):
     return HttpResponse("<b>a同學再次開發</b>")
+
+def bweb(request):
+    return HttpResponse("hello world by b同學 完成")
