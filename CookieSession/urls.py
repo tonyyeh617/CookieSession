@@ -47,8 +47,6 @@ urlpatterns = [
     path('aweb2/',views.aweb2),
 
 
-    
-    
 ]
 
 
