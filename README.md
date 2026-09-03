@@ -67,7 +67,8 @@ top level because `settings.py` adds `templates/` to `TEMPLATES["DIRS"]`.
 
 ## Requirements
 
-- Python 3.6 or newer (the project uses f-strings and `pathlib`).
+- Python 3.6 or newer (the project uses f-strings and `pathlib`); use a
+  Python version supported by the selected Django release.
 - Django 2.2.x, matching the version family used to generate the project.
 - A browser for trying the HTTP examples.
 
